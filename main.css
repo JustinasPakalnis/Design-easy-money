@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+header,
+main > section:nth-child(1),
+main > section:nth-child(2)
+{
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+
+main {
+margin-top: 60px;
+}
+
+ 
+div {
+width: 35%;
+background-color: red;
+float: left;
+}
+
+section > img {
+width: 55%;
+float: right;
+
+}
+
+ footer {
+    display: inline-block;
+    width: 100%;
+}
+footer > div {
+    float:left;
+    width: 200px;
+    margin-left: calc((100% - 200px * 3)/4);
+    background-color: violet;
+}
+main > section + section {
+    display: inline-block;
+    margin-top: 60px;
+}
+header > img {
+    display: flex;
+}
