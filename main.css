@@ -5,12 +5,12 @@ body {
     }
 
 .container{
-    
+    display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px);
     
     }
-header {
+header.container {
     display: flex;
     margin-top: 60px;
     flex-direction: row;
@@ -21,41 +21,51 @@ header {
 .logo {
     height: 25px;
     }   
-.active {
-    color: rgb(29, 29, 252);
-}
-header > nav {
+
+.main-nav {
     display: flex;
     gap: 30px;
     }
-header > nav > a {
+.link {
     font-size: 20px;
+    line-height: 1em;
     text-decoration: none;
     color: rgb(97, 97, 97);
-}
-header > a {
+    }
+
+.link:hover {
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+    }
+.link.active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+.btn {
     padding: 0.5em 1em;
     background-color: black;
     color:white;
     text-decoration: none;
     border-radius: 0.5em;
     font-size: 16px;
-}
+    border: 0.1emsolid black;
+    }
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    }
 main {
     margin-top: 60px;
     }
-div {
+.texts {
     width: 35%;
-    
     float: left;
     }
 
-section > img {
+.hero-img {
     width: 55%;
     float: right;
-
     }
-
  footer {
     display: inline-block;
     width: 100%;
@@ -66,7 +76,10 @@ footer > div {
     margin-left: calc((100% - 200px * 3)/4);
     background-color: violet;
     }
-main > section + section {
+.main {
+    margin-top: 60px;
+}
+section.container > img {
     display: inline-block;
     margin-top: 60px;
     }
