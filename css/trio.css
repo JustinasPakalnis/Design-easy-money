@@ -5,11 +5,17 @@
 
 .trio-list .trio {
     padding: 20px;
-    background-color: pink;
+    background-color: #E9F3FF;
     border-radius: 20px;
     width: 150px;
 }
 
+.trio-list .trio:nth-child(2){
+    background-color: #FAEFF6;
+}
+.trio-list .trio:nth-child(3){
+    background-color: #F2ECFF;
+}
 .trio-list .img {
     display: block;
     width: 100%;
@@ -24,5 +30,13 @@
 }
 
 .trio-list .description {
-
+    font: 17px;
+    color: #779ce5;
 }
+.trio-list .trio:nth-child(2)  .description {
+    color:#c3648d;
+    }
+
+.trio-list .trio:nth-child(3)  .description{
+    color:#8885f6;
+    }
