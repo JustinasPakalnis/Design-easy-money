@@ -1,0 +1,28 @@
+.trio-list {
+    display: flex;
+    gap: 30px;
+}
+
+.trio-list .trio {
+    padding: 20px;
+    background-color: pink;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.trio-list .img {
+    display: block;
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.trio-list .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.trio-list .description {
+
+}

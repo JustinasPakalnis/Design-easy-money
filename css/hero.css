@@ -1,8 +1,8 @@
-.texts {
+.hero .texts {
     width: 35%;
     float: left;
     }
-.badge {
+.hero .badge {
     display: flex;
     align-items: center;
     gap: 0.5em;
@@ -10,23 +10,23 @@
     font-transform: uppercase; 
     font-weight: bold;
 }
-.badge > svg {
+.hero .badge > svg {
     width: 20px;
     height: 20px;
     color: green;
 }
-.main-title {
+.hero .main-title {
     font-size: 42px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-.main-title > span {
+.hero .main-title > span {
     color: blue;
 }
-.description {
+.hero .description {
     font-size: 18px;
     color: grey
 }
-.hero-img {
+.hero .hero-img {
     width: 55%;
     float: right;
     }
