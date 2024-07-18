@@ -1,9 +1,10 @@
 body {
+    width: 100%;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
     padding-bottom: 60px;
-    }
+     }
 .container{
     display: inline-block;
     width: 800px;
@@ -27,7 +28,14 @@ main {
 }
 .main-footer > div > a {
     font-size: 20px;
+    color: grey;
 }
 .main-footer > p {
     margin: 0;
+    color: grey;
+}
+.brand-list {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 }
