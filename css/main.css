@@ -4,6 +4,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
     padding-bottom: 60px;
+    background: linear-gradient(45deg, red 20% , white 50% , blue 70%);
      }
 .container{
     display: inline-block;
@@ -15,7 +16,7 @@ main {
     }
 .main > .container + .container {
     margin-top: 60px;
-    }
+}
 .main-footer {
     margin-top: 60px;
     justify-content: space-between;

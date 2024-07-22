@@ -33,9 +33,10 @@
 .hero .main-title:hover > .crazy {
     display: inline-block;
     color: #cf1010;
-    border: 2px solid red;
+    border: 2px solid rgb(219, 121, 121);
     padding: 0px 10px 5px 10px;
     transform: rotate(-5deg);
+    position: relative;
     
 }
 .hero .description {
@@ -46,3 +47,32 @@
     width: 55%;
     
     }
+
+.crazy::before,
+.crazy::after,
+.crazy > .sqr::before,
+.crazy > .sqr::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 2px;
+    border: solid rgb(219, 121, 121) 2px;
+    }
+
+.crazy::before {
+    top: -5px;
+    left: -5px;
+}
+.crazy::after {
+    top: -5px;
+    right: -5px;
+}
+.crazy .sqr::before {
+    bottom: -5px;
+    left: -5px;
+}
+.crazy .sqr::after {
+    bottom: -5px;
+    right: -5px;
+}
